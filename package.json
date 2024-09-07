@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "every.js",
-  "type": "commonjs",
   "scripts": {
+    "main": "node ./src/every.js",
     "main:esm": "node -r esm ./src/every.js",
     "test": "jest"
   },

@@ -10,7 +10,6 @@ const config = {
 
   // A map from regular expressions to paths to transformers
   transform: {
-    // "\\.m?jsx?$": "jest-esm-transformer",
     "^.+\\.jsx?$": "babel-jest",
   },
 };
